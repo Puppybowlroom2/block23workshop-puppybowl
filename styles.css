@@ -1,127 +1,127 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  
-  }
+  font-family: "Poppins", sans-serif;
+}
 
-  html{
-    background-color: #AB8742;
-  }
-  
-  #all-players-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-    overflow: auto;
-    background-color: #414b3bed;
-    
-  }
-  /* Styles for players */
-  .player {
-    background-color:#8CA87C;
-    padding: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .player h2 {
-    font-size: 30px;
-    margin-top: 0;
-  }
-  
-  .player p {
-    margin-bottom: 5px;
-  }
-  
-  .player img {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
-  }
-  
-  .player button {
-    margin-top: 10px;
-  }
-  
-  /* Styles for player details */
-  
-  .player-details {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .player-details h2 {
-    font-size: 24px;
-    margin-top: 0;
-  }
-  
-  .player-details p {
-    margin-bottom: 5px; 
-  }
-  
-  .player-details img {
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
-  
-  .player-details button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  /* Styles for new player form */
-  #new-player-form {
-    margin-top: 20px;
-    text-align: center;
-    background-color: #414B3B;
-  }
-  
-  #new-player-form h2 {
-    font-size: 50px;
-    margin-bottom: 10px;
-    font-family: 'Source Code Pro', monospace;
-    
-    
-  }
-  
-  #new-player-form form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  #new-player-form label {
-    font-weight: lighter;
-    font-size: 25px;
-    margin-bottom: 5px;
-    color: #b6c7ac;
-  }
-  
-  #new-player-form input {
-    margin-bottom: 10px;
-    padding: 5px;
-  }
-  
-  #new-player-form button[type="submit"] {
-    padding: 10px 20px;
-    background-color: #0dea23;
-    color: black;
-    border: black;
-    border-radius: 20px;
-    cursor: pointer;
-  }
+html {
+  background-color: #ab8742;
+}
+
+#all-players-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  overflow: auto;
+  background-color: #414b3bed;
+  padding: 18px;
+}
+/* Styles for players */
+.player {
+  background-color: #8ca87c;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.player h2 {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.player p {
+  margin-bottom: 5px;
+}
+
+.player img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.player button {
+  margin-top: 10px;
+}
+
+/* Styles for player details */
+
+.player-details {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: black;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-details h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.player-details p {
+  margin-bottom: 5px;
+}
+
+.player-details img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.player-details button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for new player form */
+#new-player-form {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #414b3b;
+}
+
+#new-player-form h2 {
+  font-size: 50px;
+  margin-top: 5px;
+  padding: 20px;
+  font-family: "Source Code Pro", monospace;
+}
+
+#new-player-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#new-player-form label {
+  font-weight: lighter;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #b6c7ac;
+}
+
+#new-player-form input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#new-player-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0dea23;
+  color: black;
+  border: black;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 15px;
+  margin-bottom: 20px;
+}
