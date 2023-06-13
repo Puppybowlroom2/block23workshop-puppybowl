@@ -1,5 +1,10 @@
 body {
   font-family: 'Poppins', sans-serif;
+  
+  }
+
+  html{
+    background-color: #AB8742;
   }
   
   #all-players-container {
@@ -7,16 +12,18 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     overflow: auto;
+    background-color: #414b3bed;
+    
   }
   /* Styles for players */
   .player {
-    background-color: #f4f4f4;
+    background-color:#8CA87C;
     padding: 20px;
     margin-bottom: 10px;
   }
   
   .player h2 {
-    font-size: 18px;
+    font-size: 30px;
     margin-top: 0;
   }
   
@@ -57,7 +64,7 @@ body {
   }
   
   .player-details p {
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
   }
   
   .player-details img {
@@ -80,21 +87,29 @@ body {
   /* Styles for new player form */
   #new-player-form {
     margin-top: 20px;
+    text-align: center;
+    background-color: #414B3B;
   }
   
   #new-player-form h2 {
-    font-size: 24px;
+    font-size: 50px;
     margin-bottom: 10px;
+    font-family: 'Source Code Pro', monospace;
+    
+    
   }
   
   #new-player-form form {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   
   #new-player-form label {
-    font-weight: bold;
+    font-weight: lighter;
+    font-size: 25px;
     margin-bottom: 5px;
+    color: #b6c7ac;
   }
   
   #new-player-form input {
@@ -104,9 +119,9 @@ body {
   
   #new-player-form button[type="submit"] {
     padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+    background-color: #0dea23;
+    color: black;
+    border: black;
+    border-radius: 20px;
     cursor: pointer;
   }
