@@ -166,6 +166,9 @@ const renderNewPlayerForm = () => {
   
       <label for="status">Status</label>
       <input type="text" name="status" id="status" />
+
+      <label for="image">Image</label>
+      <input type="text" name="image" id="image" />
   
       <button type="submit">Submit</button>
     </form>
@@ -176,16 +179,17 @@ const renderNewPlayerForm = () => {
       const name = document.querySelector("#name").value;
       const breed = document.querySelector("#breed").value;
       const status = document.querySelector("#status").value;
+      const image = document.querySelector("#image").value;
 
       const newPlayer = {
         name: name,
         breed: breed,
         status: status,
+        imageUrl: image,
       };
       await addNewPlayer(newPlayer);
       const player = await fetchAllPlayers();
       await renderAllPlayers(player);
-
     });
   } catch (err) {
     console.log("Uh oh, trouble rendering the new player form!", err);
